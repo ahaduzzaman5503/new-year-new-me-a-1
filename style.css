@@ -12,9 +12,8 @@
     align-items: center;
     justify-items: center;
     position: relative;
-    width: 1600px;
-    height: 808px;
-    left: 0px;
+    width: 100%;
+    height: 905px;
 
 }
 .header-text{
@@ -119,7 +118,7 @@
 
 .awlays-keep{
     margin: 130px 300px;
-    background: url(images/watch.png), linear-gradient(90deg, rgba(12,235,83,1) 0%, rgba(0,9,255,1) 100%);
+    background: url(images/watch.png), linear-gradient(90deg, rgba(3,139,250,1) 0%, rgba(188,0,255,1) 100%);
     background-blend-mode: multiply;
     background-size: cover;
     width: 1140px;
@@ -138,4 +137,67 @@
     font-size: 40px;
     font-weight: 700;
     color: white;
+}
+
+/* --Footer css start-- */
+
+.footer{
+    background: #151414;
+}
+
+.footer-container{
+    margin: 100px 200px 50px;
+    display: flex;
+    padding: 100px;
+    
+}
+.future-left{
+  margin-right: 400px;
+}
+.future-left h1 {
+    color: #F8F8F8;
+    font-size: 45px;
+    margin: 10px 0;
+   font-weight: 700;
+}
+.future-left p{
+    color: #F8F8F8;
+    font-size: 17px;
+    margin: 10px 0;
+    line-height: 25px;
+}
+.social{
+    margin: 20px 0;
+}
+.social ul{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.suscribe-right{
+    padding: 20px;
+    margin-right: 20px;
+}
+.suscribe-right h1 {
+    color: #F8F8F8;
+    font-size: 40px;
+    margin: 10px 0;
+   font-weight: 700;
+}
+
+.footer-btn{
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    background: #005FAC;
+    border: 5px solid #005eaaa6;
+    box-shadow: 5px 5px 5px rgba(227, 216, 216, 0.664);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.email{
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 20px;
 }
