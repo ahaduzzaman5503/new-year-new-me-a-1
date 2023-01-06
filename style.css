@@ -2,3 +2,46 @@
     margin: 0;
     padding: 0;
 }
+
+/*--Header part css--*/
+
+.header{
+    background-image: url(images/banner/banner3.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    position: absolute;
+    width: 1600px;
+    height: 808px;
+    left: 0px;
+
+}
+.header-text{
+     border: 1px solid black;
+     text-align: end;
+     padding: 30px;
+     position: relative;
+     width: 420px;
+     height: auto;
+     margin-left: 900px;
+}
+.header-title{
+    font-size: 45px;
+    color: white;
+}
+.header-descriptions{
+    font-size: 18px;
+    margin-top: 20px;
+    color: rgba(254, 255, 255, 0.754);
+}
+.header-button{
+    font-size: 20px;
+    color: #005FAC;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.977);
+    border: 5px solid white;
+    box-shadow: 5px 5px 5px rgba(227, 216, 216, 0.664);
+    border-radius: 10px;
+    margin-top: 20px;
+}
