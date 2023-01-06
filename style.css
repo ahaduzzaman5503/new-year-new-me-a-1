@@ -11,17 +11,16 @@
     display: flex;
     align-items: center;
     justify-items: center;
-    position: absolute;
+    position: relative;
     width: 1600px;
     height: 808px;
     left: 0px;
 
 }
 .header-text{
-     border: 1px solid black;
      text-align: end;
      padding: 30px;
-     position: relative;
+     position: absolute;
      width: 420px;
      height: auto;
      margin-left: 900px;
@@ -44,4 +43,38 @@
     box-shadow: 5px 5px 5px rgba(227, 216, 216, 0.664);
     border-radius: 10px;
     margin-top: 20px;
+}
+
+.failures{
+    margin: 200px 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+}
+.failures-text{
+    padding: 70px;
+    margin: 100px 200px 0 100px;
+}
+.failures-text h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
+    margin-bottom: 20px;
+}
+.failures-des{
+    font-size: 18px;
+    color: #444343;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+.icon-text li{
+    color: #444343;
+    list-style: none;
+    line-height: 30px;
+}
+.icon-text li img{
+    width: 20px;
+    height: auto;
+    margin-right: 5px;
 }
