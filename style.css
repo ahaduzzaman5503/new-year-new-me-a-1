@@ -34,7 +34,7 @@
     margin-top: 20px;
     color: rgba(254, 255, 255, 0.754);
 }
-.header-button{
+.button{
     font-size: 20px;
     color: #005FAC;
     padding: 10px;
@@ -44,6 +44,8 @@
     border-radius: 10px;
     margin-top: 20px;
 }
+
+/*--My failures section css start--*/
 
 .failures{
     margin: 200px 200px;
@@ -77,4 +79,63 @@
     width: 20px;
     height: auto;
     margin-right: 5px;
+}
+
+/*--My Plan css start--*/
+
+.my-plans{
+    margin: 200px 200px;
+}
+.my-plans-title{
+    font-size: 40px;
+    margin: 35px 0;
+    text-align: center;
+}
+.all-plan{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.single-plan{
+    padding: 20px;
+    text-align: center;
+
+}
+.single-plan h1{
+    font-size: 30px;
+    font-weight: 700;
+    color: #151414;
+    margin: 10px 0;
+}
+.single-plan p{
+    font-size: 18px;
+    font-weight: 700;
+    color: #737272;
+    margin: 10px 0;
+}
+
+/*--Awlyes keep css --*/
+
+.awlays-keep{
+    margin: 130px 300px;
+    background: url(images/watch.png), linear-gradient(90deg, rgba(12,235,83,1) 0%, rgba(0,9,255,1) 100%);
+    background-blend-mode: multiply;
+    background-size: cover;
+    width: 1140px;
+    height: 300px;
+    position: relative;
+    border-radius: 10px;
+}
+.text-btn{
+    position: absolute;
+    width: 400px;
+    height: auto;
+    padding: 10px;
+    margin: 60px 700px 50px  60px;
+}
+.text-btn h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
 }
