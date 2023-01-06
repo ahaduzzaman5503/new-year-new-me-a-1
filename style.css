@@ -55,7 +55,7 @@
 }
 .failures-text{
     padding: 70px;
-    margin: 100px 200px 0 100px;
+    margin: 100px 100px 0 100px;
 }
 .failures-text h1{
     font-size: 40px;
@@ -84,6 +84,9 @@
 
 .my-plans{
     margin: 200px 200px;
+    background-color: rgb(244, 240, 240);
+    border-radius: 10px;
+    padding: 10px;
 }
 .my-plans-title{
     font-size: 40px;
@@ -119,6 +122,7 @@
 .awlays-keep{
     margin: 130px 300px;
     background: url(images/watch.png), linear-gradient(90deg, rgba(3,139,250,1) 0%, rgba(188,0,255,1) 100%);
+    opacity: .9;
     background-blend-mode: multiply;
     background-size: cover;
     width: 1140px;
@@ -200,4 +204,51 @@
     padding: 20px;
     border-radius: 10px;
     font-size: 20px;
+}
+
+/* --Other Section css  -- */
+.all-project{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 20px;
+}
+.single-project{
+    border: 5px solid rgb(248, 247, 247);
+    box-shadow: 5px 5px 5px rgb(224, 211, 211);
+    border-radius: 10px;
+    padding: 30px;
+    background-color: rgb(246, 244, 242);
+}
+.other-project{
+    margin: 200px 250px;
+    background-color: rgb(243, 238, 238);
+    padding: 10px;
+    border-radius: 10px;
+}
+.file-github-link{
+    display: flex;
+    justify-content: space-between;
+}
+.file-github-link img{
+    width: 40px;
+    height: 40px;
+}
+.right-icon{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+.file-github-link{
+    margin: 20px 5px;
+}
+.porject-title{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 10px 5px;
+}
+.project-description{
+    font-size: 18px;
+    line-height: 25px;
+    margin: 10px 5px;
 }
